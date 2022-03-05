@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Tic Tac Toe</title>
+  <title>Jogo da Velha</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 
@@ -17,7 +17,7 @@
       </div>
     </div>
   </transition>
-  
+
   <transition v-on:enter="enterWin" v-bind:css="false">
     <win v-show="winner" :click-handler="restart"></win>
   </transition>
